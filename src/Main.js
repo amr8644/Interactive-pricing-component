@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import InputRange from "./InputRange.js";
+import Check from "./images/icon-check.svg";
 
 const Main = () => {
   const [price, setPrice] = useState(20);
@@ -62,11 +63,11 @@ const Main = () => {
 
       <div class="w-full flex sm:flex-col md:flex-row">
         {/* List*/}
-        <div class="md:w-1/2 sm:w-full  my-5 mx-2 flex items-center justify-center text-center">
+        <div class="md:w-1/2 sm:w-full  my-5 mx-2 sm:flex sm:items-center sm:justify-center sm:text-center md:justify-start md:items-start md:text-left">
           <ul class="flex flex-col my-5">
             <small class="mb-2 text-GrayishBlue">Unlimited websites</small>
             <small class="mb-2 text-GrayishBlue">100% data ownership</small>
-            <small class="mb-2 text-GrayishBlue"> Email reports</small>
+            <small class="mb-2 text-GrayishBlue">Email reports</small>
           </ul>
         </div>
         {/* Button */}
