@@ -7,12 +7,16 @@ const Main = () => {
   return (
     <div
       className={
-        "lg:w-2/4 lg:h-1/2 flex items-center flex-col shadow-md sm:w-11/12 sm:h-auto justify-between"
+        "lg:w-2/4 flex items-center flex-col shadow-md sm:w-11/12 sm:h-auto justify-between"
       }
     >
       {/* Price */}
 
-      <div className={"flex items-center justify-around my-10 w-11/12"}>
+      <div
+        className={
+          "flex items-center justify-around my-10 w-11/12 sm:flex-col md:flex-row"
+        }
+      >
         <p className={"text-LightGrayishBlueTwo"}>100K PAGEVIEWS</p>
         <h2 className={"text-DarkDesaturatedBlue text-4xl font-bold"}>
           ${price}.00
@@ -50,23 +54,23 @@ const Main = () => {
         <small className={"text-LightGrayishBlueTwo mx-3"}>
           Yearly Billing{" "}
           <small class="px-3 bg-LightGrayishRed rounded-lg text-LightRed font-extrabold">
-            25% discount
+            25%
           </small>
         </small>
         <hr />
       </div>
 
-      <div class="w-full flex">
+      <div class="w-full flex sm:flex-col md:flex-row">
         {/* List*/}
-        <div class="w-1/2  my-6 mx-2">
-          <ul class="flex flex-col my-2">
+        <div class="md:w-1/2 sm:w-full  my-5 mx-2 flex items-center justify-center text-center">
+          <ul class="flex flex-col my-5">
             <small class="mb-2 text-GrayishBlue">Unlimited websites</small>
             <small class="mb-2 text-GrayishBlue">100% data ownership</small>
             <small class="mb-2 text-GrayishBlue"> Email reports</small>
           </ul>
         </div>
         {/* Button */}
-        <div class="w-1/2  my-5 flex items-center justify-center">
+        <div class="md:w-1/2 sm:w-full  my-5 flex items-center justify-center">
           <button class="px-7 py-2 my-auto  border-none outline-none bg-DarkDesaturatedBlue text-white rounded-3xl cursor-pointer">
             Start my trial
           </button>
