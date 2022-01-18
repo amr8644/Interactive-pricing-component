@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Git Hub](https://github.com/amr8644/Interactive-pricing-component)
-- Live Site URL: [Preview](https://boring-wing-c7bbb9.netlify.app/)
+- Live Site URL: [Preview](https://nostalgic-minsky-16cc4a.netlify.app/)
 
 ## My process
 
