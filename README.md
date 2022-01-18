@@ -1,4 +1,53 @@
-# Getting Started with Create React App
+# Frontend Mentor - Interactive pricing component solution
+
+This is a solution to the [Interactive pricing component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-pricing-component-t0m8PIyY8). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+
+  - [Built with](#built-with)
+
+- [Author](#author)
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Use the slider and toggle to see prices for different page view numbers
+
+### Screenshot
+
+![Desktop](./design/desktop-design.jpg)
+![Mobile](./design/mobile-design.jpg)
+
+### Links
+
+- Solution URL: [Git Hub](https://github.com/amr8644/Interactive-pricing-component)
+- Live Site URL: [Preview](https://boring-wing-c7bbb9.netlify.app/)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- Tailwind CSS
+- React JS
+
+## Author
+
+- Amr Ashebo
+- Twitter - [@amr_ashebo](https://twitter.com/amr_ashebo)
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

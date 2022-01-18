@@ -1,15 +1,5 @@
 import React, { useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCheck } from "@fortawesome/free-solid-svg-icons";
 import InputRange from "./InputRange.js";
-
-const check = (
-  <FontAwesomeIcon
-    icon={faCheck}
-    className={"mr-2 text-green-400"}
-    size={"1x"}
-  />
-);
 
 const Main = () => {
   const [price, setPrice] = useState(20);
@@ -70,13 +60,9 @@ const Main = () => {
         {/* List*/}
         <div class="w-1/2  my-6 mx-2">
           <ul class="flex flex-col my-2">
-            <small class="mb-2 text-GrayishBlue">
-              {check} Unlimited websites
-            </small>
-            <small class="mb-2 text-GrayishBlue">
-              {check} 100% data ownership
-            </small>
-            <small class="mb-2 text-GrayishBlue">{check} Email reports</small>
+            <small class="mb-2 text-GrayishBlue">Unlimited websites</small>
+            <small class="mb-2 text-GrayishBlue">100% data ownership</small>
+            <small class="mb-2 text-GrayishBlue"> Email reports</small>
           </ul>
         </div>
         {/* Button */}
